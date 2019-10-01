@@ -1,15 +1,14 @@
 
 puts "Quelle est ton âge?"
 puts "> "
-number = gets.chomp
+age = Integer(gets.chomp)
 
-number = number.to_i
 
 year = 2019
-age = 0
+age_times = 0
 
-while number >=0
-	puts "Il y a #{number} ans tu avais #{age} ans"
-	age =+1  
-	number =+1 	
+while age >=0
+	puts "Il y a #{age} ans tu avais #{age_times} ans"
+	age -=1  
+	age_times +=1 	
 end

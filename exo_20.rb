@@ -19,4 +19,4 @@ until i == number
 	puts "#" * Integer(i)
 	i +=1
 
-end 
+	end 

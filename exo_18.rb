@@ -3,7 +3,6 @@ a = []
 count = 0
 
 
-
 while count<50
 
 		if count <10
@@ -15,6 +14,5 @@ while count<50
 	end
 print(a)	
 end
-
 
 
