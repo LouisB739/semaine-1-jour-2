@@ -10,10 +10,8 @@ age = 0
 
 while year >= number
 	puts(number)
-	puts "vous aviez #{age} ans"
+	puts "vous aviez #{age} an(s)"
 	age = age + 1 
 	number = number + 1
-
-	
 
 end

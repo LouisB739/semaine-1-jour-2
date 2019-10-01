@@ -1,5 +1,5 @@
 
-puts "Quelle est ton année de naissance?"
+puts "Quelle est ton âge?"
 puts "> "
 number = gets.chomp
 
@@ -8,17 +8,12 @@ number = number.to_i
 year = 2019
 age = 0
 
-
-
-while year >= number
-
-	if (year - number == age )
-		puts "Il y a #{year - number} ans, tu avais la moitié de l'âge que tu as aujourd'hui"
-		else	
-		puts "Il y a #{year - number} ans tu avais #{age} ans"
+while number >=0
+	if number == age
+		puts "Il y a n ans, tu avais la moitié de l'âge que tu as aujourd'hui"
 	end
-		age = age + 1 
-		number = number + 1
-
+	puts "Il y a #{number} ans tu avais #{age} ans"
+	age = age + 1 
+	number = number -1	
 
 end
